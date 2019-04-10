@@ -1,35 +1,25 @@
 <template>
   <section class="container">
     <div>
-      <logo />
+      <!-- <logo /> -->
       <h1 class="title">
-        personalweb
+        I'm working on it...
       </h1>
-      <h2 class="subtitle">
-        My sweet Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
-      </div>
+      <!-- <div class="links">
+        <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ukthapa" target="_blank">GitHub</a>
+      </div> -->
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  }
+  // components: {
+  //   Logo
+  // }
 }
 </script>
 
@@ -48,7 +38,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3rem;
   color: #35495e;
   letter-spacing: 1px;
 }
