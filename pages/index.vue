@@ -2,13 +2,12 @@
   <section class="container">
     <div>
       <!-- <logo /> -->
-      <h1 class="title">
-        I'm working on it...
-      </h1>
-      <!-- <div class="links">
-        <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
+      <h1 class="title">I'm working on it...</h1>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/uttamkthapa" target="_blank">LinkedIn</a>
+        |
         <a href="https://github.com/ukthapa" target="_blank">GitHub</a>
-      </div> -->
+      </div>
     </div>
   </section>
 </template>
@@ -34,8 +33,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 3rem;

@@ -1,0 +1,15 @@
+{
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+    // "eslint.validate": [
+    //     {
+    //         "language": "vue",
+    //         "autofix": true
+    //     },
+    //     {
+    //         "language": "html",
+    //         "autofix": true
+    //     }
+    // ]
+}
