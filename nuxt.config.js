@@ -7,11 +7,12 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: 'Uttam Kr. Thapa - Frontend developer cum designer',
+        // title: 'Uttam Kr. Thapa - Frontend developer cum designer',
+        titleTemplate: '%s - ukthapa.com',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: pkg.description },
+            { hid: 'description', name: 'description', content: 'Meta description' },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
@@ -24,7 +25,7 @@ export default {
     /*
      ** Global CSS
      */
-    css: ['@/assets/scss/main.scss'],
+    css: ['@/assets/scss/main.scss', { src: '~assets/main.sass', lang: 'sass' }],
 
     /*
      ** Plugins to load before mounting the App
