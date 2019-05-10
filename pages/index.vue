@@ -19,6 +19,12 @@ export default {
   // components: {
   //   Logo
   // }
+  head() {
+    return {
+      title: 'Uttam - ukthapa.com',
+      meta: [{ hid: 'description', name: 'description', content: 'About our company Nuxt.js ' }],
+    }
+  },
 }
 </script>
 
@@ -31,7 +37,7 @@ export default {
   align-items: center;
   text-align: center;
 }
-
+/*
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
@@ -48,7 +54,7 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
+} */
 
 .links {
   padding-top: 15px;
